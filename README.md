@@ -31,7 +31,9 @@
 
 1. Убедитесь, что у вас установлен Python. Вы можете проверить это, выполнив команду:
 
-   ```python3 --version```
+```
+python3 --version
+```
 Если Python не установлен, вы можете установить его с помощью следующей команды (для Ubuntu/Debian):
 ```
 sudo apt update
@@ -47,7 +49,8 @@ sudo apt install python3 python3-pip
 
 1. Установите Termux на ваше устройство Android с сайта FDOID [FDROID Termux 0.118.0]https://f-droid.org/repo/com.termux_118.apk
 2. Откройте Termux,обновите его и установите модули
-   ```termux-setup-storage
+   ```
+   termux-setup-storage
    pkg update && pkg upgrade
    pkg install python
    pip install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois
