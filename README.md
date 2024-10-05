@@ -33,9 +33,10 @@
 
    `python3 --version`
 Если Python не установлен, вы можете установить его с помощью следующей команды (для Ubuntu/Debian):
-
-> sudo apt update
+```
+sudo apt update
 sudo apt install python3 python3-pip
+```
 
 2. Установите необходимые модули, выполнив следующую команду:
    `pip3 install pandas sqlite3 requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois`
