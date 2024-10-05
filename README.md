@@ -39,7 +39,9 @@ sudo apt install python3 python3-pip
 ```
 
 2. Установите необходимые модули, выполнив следующую команду:
-   ```pip3 install pandas sqlite3 requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois```
+   ```
+   pip3 install pandas sqlite3 requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois
+   ```
 
 ### 📱 Установка на Termux
 
