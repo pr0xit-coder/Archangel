@@ -24,8 +24,9 @@
 ### 🖥️ Установка на Windows
 
 1. Скачайте и установите Python с [Python.org](https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe), если он еще не установлен.
-2. Запустите файл `Win.bat` двойным щелчком.
+2. Запустите файл `install_win.bat` двойным щелчком.
 3. Следуйте инструкциям на экране.
+4. Для последующих запусков используйте start_win.bat
 
 ### 💻 Установка на Linux
 
@@ -42,7 +43,12 @@ sudo apt install python3 python3-pip
 
 2. Установите необходимые модули, выполнив следующую команду:
    ```
-   pip3 install pandas sqlite3 requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois
+   pip3 install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois fake-useragent instaloader vininfo g4f
+   ```
+
+3. Запусите файл Archangel
+   ```
+   python3 Archangel.py
    ```
 
 ### 📱 Установка на Termux
@@ -53,6 +59,10 @@ sudo apt install python3 python3-pip
    termux-setup-storage
    pkg update && pkg upgrade
    pkg install python
-   pip install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois
+   pip install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois fake-useragent instaloader vininfo g4f
+   ```
+3. Запусите файл Archangel
+   ```
+   python3 Archangel.py
    ```
 ## 🪼 Наше Telegram сообщество [pr0xit](https://t.me/+ZLIXp4YJn-0xY2Ey)
