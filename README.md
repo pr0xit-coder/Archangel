@@ -1,6 +1,6 @@
 
 
-# Archangle OSINT
+# Archangel OSINT
 
 ⚠️ DISCLAIMER ⚠️
 
