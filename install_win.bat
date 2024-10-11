@@ -15,7 +15,12 @@ echo Удаление модуля python-whois...
 pip uninstall -y python-whois
 
 echo Установка необходимых модулей...
-pip install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois
+pip install pandas requests beautifulsoup4 tqdm chardet dnspython pystyle python-whois fake-useragent instaloader vininfo g4f
 
 echo Установка завершена.
+
+echo Запуск скрипта в новом окне с заданными размерами...
+
+start "" /max cmd /c "mode con: cols=300 lines=300 && python main.py"
+
 pause
